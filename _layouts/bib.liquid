@@ -48,7 +48,9 @@
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
-    <div class="title"><a href="http://arxiv.org/abs/{{ entry.arxiv }}" style="color: inherit; text-decoration: none;">{{entry.title}}</a></div>
+    <div class="title">
+      <a href="http://arxiv.org/abs/{{ entry.arxiv }}" style="color: inherit; text-decoration: none;">{{ entry.title }}</a>
+    </div>
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
@@ -91,10 +93,12 @@
           {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
         {% endif %}
         {%- if author_is_self -%}
-          <em><b>
-            {{- author.first }}
-            {{ author_last_html -}}
-          </b></em>
+          <em
+            ><b>
+              {{- author.first }}
+              {{ author_last_html -}}
+            </b></em
+          >
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
@@ -295,7 +299,6 @@
           >
         </a>
       {% endif %}
-      
     </div>
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
