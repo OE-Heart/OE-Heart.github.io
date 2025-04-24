@@ -1,9 +1,15 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"ACL 2023":
+  url: https://aclanthology.org
+  color: "#B22222"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ACL 2024":
+  url: https://aclanthology.org
+  color: "#B22222"
 
-"Vision":
-  color: "#009f36"
+"ACL 2025":
+  url: https://aclanthology.org
+  color: "#B22222"
+
+"NAACL 2025":
+  url: https://naacl.org
+  color: "#006400"
