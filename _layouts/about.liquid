@@ -40,6 +40,13 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <!-- Social -->
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% include social.liquid %}</div>
+      </div>
+    {% endif %}
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
@@ -70,15 +77,6 @@ layout: default
       id="mapmyvisitors"
       src="https://mapmyvisitors.com/map.js?cl=ffffff&w=300&t=n&d=7wSDMEROzUhHfQ0v5SeauhnUhJ-4sy1Z2bRA_8w-bT4"
     ></script>
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}

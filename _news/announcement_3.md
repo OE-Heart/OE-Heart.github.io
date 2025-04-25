@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-07-02
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Start my internship at the AI Theory Lab in Huawei Noah’s Ark Lab under the supervision of [Hui Jin](https://huijin12.github.io/) and [Jiacheng Sun](https://openreview.net/profile?id=~Jiacheng_Sun1).
