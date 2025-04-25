@@ -25,21 +25,22 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+        },{id: "news-our-paper-easyinstruct-an-easy-to-use-instruction-processing-framework-for-large-language-models-is-accepted-by-acl-2024-system-demonstration-track",
+          title: 'Our paper EasyInstruct: An Easy-to-use Instruction Processing Framework for Large Language Models is...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-we-release-our-new-work-symbolic-learning-enables-self-evolving-agents",
+          title: 'We release our new work Symbolic Learning Enables Self-Evolving Agents.',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2.html";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-start-my-internship-at-the-ai-theory-lab-in-huawei-noah-s-ark-lab-under-the-supervision-of-hui-jin-and-jiacheng-sun",
+          title: 'Start my internship at the AI Theory Lab in Huawei Noah’s Ark Lab...',
+          description: "",
+          section: "News",},{id: "news-our-paper-how-do-llms-acquire-new-knowledge-a-knowledge-circuits-perspective-on-continual-pre-training-is-accepted-at-the-open-science-for-foundation-models-sci-fm-workshop-at-iclr-2025",
+          title: 'Our paper How Do LLMs Acquire New Knowledge? A Knowledge Circuits Perspective on...',
           description: "",
           section: "News",},{
         id: 'social-dblp',
