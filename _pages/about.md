@@ -21,6 +21,6 @@ announcements:
 
 I am now a second-year Master student of [ZJUNLP](https://github.com/zjunlp) majored in Computer Science and Technology at [Zhejiang University](https://www.zju.edu.cn/english/), advised by [Huajun Chen (陈华钧)](https://person.zju.edu.cn/huajun) and [Ningyu Zhang (张宁豫)](https://person.zju.edu.cn/ningyu). Previously, I graduated from the [College of Computer Science and Technology](http://www.en.cs.zju.edu.cn/), Zhejiang University (浙江大学计算机科学与技术学院) with a bachelor’s degree.
 
-My current research interests focus on Large Language Models (LLMs) and their theory and applications. I am interested in the Mechanism Interpretability of LLMs, and I am particularly interested in the application of LLMs to Autonomous Agents.
+My current research interests focus on Large Language Models (LLMs) and their theory and applications. I'm interested in the Mechanism Interpretability of LLMs and the application of LLMs to Autonomous Agents. I have published 5+ papers at the top international AI conferences such as ACL, NAACL, WWW.
 
-<b><span style="color: red; font-weight: bold;">I will graduate in the spring of 2026 and am seeking job positions as a LLM algorithm engineer.</span></b>
+<b><span style="color: red; font-weight: bold;">I will graduate in the spring of 2026 and I'm seeking a job position as a researcher or engineer of LLM algorithm.</span></b>
