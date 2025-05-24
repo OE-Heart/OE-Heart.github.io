@@ -202,18 +202,23 @@
 
     <!-- Links/Buttons -->
     <div class="links">
+      {% if entry.abstract %}
+        <a class="abstract z-depth-0" role="button"><img alt="Abstract" src="https://img.shields.io/badge/Abstract-beige?style=flat"></a>
+      {% endif %}
       {%- if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}">
           <img alt="GitHub Repo stars" src="https://img.shields.io/badge/ArXiv-b31b1b.svg?logo=ArXiv">
+        </a>
+      {% endif %}
+      {%- if entry.github %}
+        <a href="https://github.com/{{ entry.github }}">
+          <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/{{ entry.github }}">
         </a>
       {% endif %}
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
         </a>
-      {% endif %}
-      {% if entry.abstract %}
-        <a class="abstract z-depth-0" role="button"><img alt="Abstract" src="https://img.shields.io/badge/Abstract-FFCC99?style=flat"></a>
       {% endif %}
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
@@ -264,28 +269,23 @@
       {% endif %}
       {% if entry.website %}
         <a href="{{ entry.website }}">
-          <img alt="Website" src="https://img.shields.io/badge/-Website-FFCC99?style=flat">
+          <img alt="Website" src="https://img.shields.io/badge/-Website-222222?style=flat&logo=githubpages">
         </a>
       {% endif %}
       {% if entry.video and site.enable_video_embedding %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
       {% elsif entry.video %}
         <a href="{{ entry.video }}">
-          <img alt="Video" src="https://img.shields.io/badge/-Video-red?style=flat&logo=youtube">
+          <img alt="Video" src="https://img.shields.io/badge/-Video-FF0000.svg?style=flat&logo=youtube">
         </a>
       {% endif %}
       {%- if entry.huggingface %}
         <a href="{{ entry.huggingface }}">
-          <img alt="Huggingface Collections" src="https://img.shields.io/badge/-🤗%20Huggingface-red?style=flat">
+          <img alt="Huggingface Collections" src="https://img.shields.io/badge/-🤗%20Huggingface-FFD21E?style=flat">
         </a>
       {%- endif %}
       {%- if entry.twitter %}
         <a href="{{ entry.twitter }}"><img alt="X (formerly Twitter) URL" src="https://img.shields.io/badge/Tweet-black?style=flat&logo=x"></a>
-      {% endif %}
-      {%- if entry.github %}
-        <a href="https://github.com/{{ entry.github }}">
-          <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/{{ entry.github }}">
-        </a>
       {% endif %}
       {% if site.enable_publication_badges.google_scholar and entry.google_scholar_id %}
         <a
@@ -293,9 +293,27 @@
           aria-label="Google Scholar link"
           role="button"
         >
+          {% assign citation_count = 0 %}
+          {% assign scholar_id_key = site.scholar_userid | append: ':' | append: entry.google_scholar_id %}
+          {% assign publication_key = entry.google_scholar_id %}
+
+          {% if site.data.citations.papers[scholar_id_key] %}
+            {% assign citation_count = site.data.citations.papers[scholar_id_key].citations %}
+          {% elsif site.data.citations.papers[publication_key] %}
+            {% assign citation_count = site.data.citations.papers[publication_key].citations %}
+          {% else %}
+            {% for paper in site.data.citations.papers %}
+              {% assign paper_key = paper[0] %}
+              {% if paper_key contains entry.google_scholar_id %}
+                {% assign citation_count = paper[1].citations %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+
           <img
-            src="https://img.shields.io/badge/Citations-{% google_scholar_citations site.data.socials.scholar_userid entry.google_scholar_id %}-4285F4?logo=googlescholar&labelColor=beige"
-            alt="{% google_scholar_citations site.data.socials.scholar_userid entry.google_scholar_id %} Google Scholar citations"
+            src="https://img.shields.io/badge/Citations-{{ citation_count }}-4285F4?logo=googlescholar&labelColor=f6f6f6"
+            alt="{{ citation_count }} Google Scholar citations"
           >
         </a>
       {% endif %}

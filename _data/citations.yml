@@ -1,43 +1,46 @@
 metadata:
-  last_updated: '2025-05-24 13:35:26'
+  last_updated: "2025-05-24 13:35:26"
+author:
+  name: "Yixin Ou"
+  citedby: 704
 papers:
   QVTr5dQAAAAJ:u-x6o8ySG0sC:
-    title: 'Reasoning with Language Model Prompting: A Survey'
-    year: '2022'
+    title: "Reasoning with Language Model Prompting: A Survey"
+    year: "2022"
     citations: 317
   QVTr5dQAAAAJ:qjMakFHDy7sC:
-    title: 'Llms for knowledge graph construction and reasoning: Recent capabilities
-      and future opportunities'
-    year: '2024'
+    title: "Llms for knowledge graph construction and reasoning: Recent capabilities
+      and future opportunities"
+    year: "2024"
     citations: 229
   QVTr5dQAAAAJ:Tyk-4Ss8FVUC:
-    title: 'KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents'
-    year: '2024'
+    title: "KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents"
+    year: "2024"
     citations: 43
   QVTr5dQAAAAJ:2osOgNQ5qMEC:
-    title: 'OceanGPT: A Large Language Model for Ocean Science Tasks'
-    year: '2023'
+    title: "OceanGPT: A Large Language Model for Ocean Science Tasks"
+    year: "2023"
     citations: 43
   QVTr5dQAAAAJ:Y0pCki6q_DkC:
     title: Symbolic Learning Enables Self-Evolving Agents
-    year: '2024'
+    year: "2024"
     citations: 37
   QVTr5dQAAAAJ:9yKSN-GCB0IC:
     title: Layout and Task Aware Instruction Prompt for Zero-shot Document Image Question
       Answering
-    year: '2023'
+    year: "2023"
     citations: 23
   QVTr5dQAAAAJ:u5HHmVD_uO8C:
     title: A Concept Knowledge Graph for User Next Intent Prediction at Alipay
-    year: '2023'
+    year: "2023"
     citations: 5
   QVTr5dQAAAAJ:ufrVoPGSRksC:
     title: How Do LLMs Acquire New Knowledge? A Knowledge Circuits Perspective on
       Continual Pre-Training
-    year: '2025'
+    year: "2025"
     citations: 3
   QVTr5dQAAAAJ:zYLM7Y9cAGgC:
-    title: 'EasyInstruct: An Easy-to-use Instruction Processing Framework for Large
-      Language Models'
-    year: '2024'
+    title: "EasyInstruct: An Easy-to-use Instruction Processing Framework for Large
+      Language Models"
+    year: "2024"
     citations: 3
