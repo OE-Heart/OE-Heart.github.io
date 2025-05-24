@@ -30,6 +30,7 @@ def get_scholar_citations():
         'metadata': {
             'last_updated': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         },
+        'author': {},
         'papers': {}  # Initialize as empty dict, not None
     }
     
@@ -69,6 +70,11 @@ def get_scholar_citations():
     if not author_data:
         print("Could not fetch author data")
         return citation_data
+
+    if 'name' in author_data:
+        citation_data['author']['name'] = author_data['name']
+    if 'citedby' in author_data:
+        citation_data['author']['citedby'] = author_data['citedby']
         
     # Process publications
     if 'publications' in author_data:
