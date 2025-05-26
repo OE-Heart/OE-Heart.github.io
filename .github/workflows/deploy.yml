@@ -1,6 +1,9 @@
 name: Deploy site
 
 on:
+  schedule:
+    # Run weekly on Sunday at 12:00 AM UTC
+    - cron: "0 0 * * 0"
   push:
     branches:
       - master
