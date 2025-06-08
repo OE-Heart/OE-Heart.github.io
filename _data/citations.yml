@@ -1,8 +1,6 @@
 metadata:
-  last_updated: '2025-06-01 01:56:35'
-author:
-  name: "Yixin Ou (\u6B27\u7FCC\u6615)"
-  citedby: 720
+  last_updated: '2025-06-08 01:48:53'
+author: {}
 papers:
   QVTr5dQAAAAJ:u-x6o8ySG0sC:
     title: 'Reasoning with Language Model Prompting: A Survey'
