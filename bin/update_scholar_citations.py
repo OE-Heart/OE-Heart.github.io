@@ -41,6 +41,8 @@ def get_scholar_citations():
                 existing_data = yaml.safe_load(f)
                 if existing_data and isinstance(existing_data, dict):
                     # Keep existing metadata if available
+                    if 'author' in existing_data and existing_data['author'] is not None:
+                        citation_data['author'] = existing_data['author']
                     if 'papers' in existing_data and existing_data['papers'] is not None:
                         citation_data['papers'] = existing_data['papers']
         except Exception as e:
