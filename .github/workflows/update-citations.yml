@@ -34,5 +34,6 @@ jobs:
 
       - name: Commit and push if changed
         run: |
+          git pull
           git add _data/citations.yml
           git diff --staged --quiet || (git commit -m "Update Google Scholar citations" && git push)
