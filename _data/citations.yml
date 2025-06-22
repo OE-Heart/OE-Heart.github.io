@@ -1,46 +1,50 @@
 metadata:
-  last_updated: "2025-06-15 01:50:46"
+  last_updated: '2025-06-22 01:50:12'
 author:
   name: "Yixin Ou (\u6B27\u7FCC\u6615)"
-  citedby: 755
+  citedby: 765
 papers:
   QVTr5dQAAAAJ:u-x6o8ySG0sC:
-    title: "Reasoning with Language Model Prompting: A Survey"
-    year: "2022"
-    citations: 322
+    title: 'Reasoning with Language Model Prompting: A Survey'
+    year: '2022'
+    citations: 332
   QVTr5dQAAAAJ:qjMakFHDy7sC:
-    title: "Llms for knowledge graph construction and reasoning: Recent capabilities
-      and future opportunities"
-    year: "2024"
-    citations: 232
+    title: 'Llms for knowledge graph construction and reasoning: Recent capabilities
+      and future opportunities'
+    year: '2024'
+    citations: 248
   QVTr5dQAAAAJ:Tyk-4Ss8FVUC:
-    title: "KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents"
-    year: "2024"
-    citations: 45
+    title: 'KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents'
+    year: '2024'
+    citations: 47
   QVTr5dQAAAAJ:2osOgNQ5qMEC:
-    title: "OceanGPT: A Large Language Model for Ocean Science Tasks"
-    year: "2023"
-    citations: 46
+    title: 'OceanGPT: A Large Language Model for Ocean Science Tasks'
+    year: '2023'
+    citations: 52
   QVTr5dQAAAAJ:Y0pCki6q_DkC:
     title: Symbolic Learning Enables Self-Evolving Agents
-    year: "2024"
-    citations: 39
+    year: '2024'
+    citations: 45
   QVTr5dQAAAAJ:9yKSN-GCB0IC:
     title: Layout and Task Aware Instruction Prompt for Zero-shot Document Image Question
       Answering
-    year: "2023"
-    citations: 24
+    year: '2023'
+    citations: 28
   QVTr5dQAAAAJ:u5HHmVD_uO8C:
     title: A Concept Knowledge Graph for User Next Intent Prediction at Alipay
-    year: "2023"
-    citations: 5
+    year: '2023'
+    citations: 6
   QVTr5dQAAAAJ:ufrVoPGSRksC:
     title: How Do LLMs Acquire New Knowledge? A Knowledge Circuits Perspective on
       Continual Pre-Training
-    year: "2025"
+    year: '2025'
     citations: 4
   QVTr5dQAAAAJ:zYLM7Y9cAGgC:
-    title: "EasyInstruct: An Easy-to-use Instruction Processing Framework for Large
-      Language Models"
-    year: "2024"
+    title: 'EasyInstruct: An Easy-to-use Instruction Processing Framework for Large
+      Language Models'
+    year: '2024'
     citations: 3
+  QVTr5dQAAAAJ:LkGwnXOMwfcC:
+    title: 'AutoMind: Adaptive Knowledgeable Agent for Automated Data Science'
+    year: '2025'
+    citations: 0
