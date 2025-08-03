@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2025-08-01 02:34:56'
+  last_updated: '2025-08-03 02:33:26'
 author:
   name: "Yixin Ou (\u6B27\u7FCC\u6615)"
-  citedby: 844
+  citedby: 845
 papers:
   QVTr5dQAAAAJ:u-x6o8ySG0sC:
     title: 'Reasoning with Language Model Prompting: A Survey'
@@ -38,7 +38,7 @@ papers:
     title: How Do LLMs Acquire New Knowledge? A Knowledge Circuits Perspective on
       Continual Pre-Training
     year: '2025'
-    citations: 4
+    citations: 5
   QVTr5dQAAAAJ:zYLM7Y9cAGgC:
     title: 'EasyInstruct: An Easy-to-use Instruction Processing Framework for Large
       Language Models'
