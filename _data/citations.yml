@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2025-10-07 01:52:38'
+  last_updated: '2025-10-09 01:53:31'
 author:
   name: "Yixin Ou (\u6B27\u7FCC\u6615)"
-  citedby: 958
+  citedby: 959
 papers:
   QVTr5dQAAAAJ:u-x6o8ySG0sC:
     title: 'Reasoning with Language Model Prompting: A Survey'
@@ -24,7 +24,7 @@ papers:
   QVTr5dQAAAAJ:Y0pCki6q_DkC:
     title: Symbolic Learning Enables Self-Evolving Agents
     year: '2024'
-    citations: 68
+    citations: 69
   QVTr5dQAAAAJ:9yKSN-GCB0IC:
     title: Layout and Task Aware Instruction Prompt for Zero-shot Document Image Question
       Answering
