@@ -1,26 +1,26 @@
 metadata:
-  last_updated: '2026-01-23 02:21:17'
+  last_updated: '2026-01-25 02:32:23'
 author:
   name: "Yixin Ou (\u6B27\u7FCC\u6615)"
-  citedby: 1142
+  citedby: 1164
 papers:
   QVTr5dQAAAAJ:u-x6o8ySG0sC:
     title: 'Reasoning with Language Model Prompting: A Survey'
     year: '2022'
-    citations: 430
+    citations: 435
   QVTr5dQAAAAJ:qjMakFHDy7sC:
     title: 'Llms for knowledge graph construction and reasoning: Recent capabilities
       and future opportunities'
     year: '2024'
-    citations: 381
+    citations: 388
   QVTr5dQAAAAJ:Tyk-4Ss8FVUC:
     title: 'KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents'
     year: '2024'
-    citations: 85
+    citations: 91
   QVTr5dQAAAAJ:2osOgNQ5qMEC:
     title: 'OceanGPT: A Large Language Model for Ocean Science Tasks'
     year: '2023'
-    citations: 98
+    citations: 100
   QVTr5dQAAAAJ:Y0pCki6q_DkC:
     title: Symbolic Learning Enables Self-Evolving Agents
     year: '2024'
@@ -29,7 +29,7 @@ papers:
     title: Layout and Task Aware Instruction Prompt for Zero-shot Document Image Question
       Answering
     year: '2023'
-    citations: 33
+    citations: 34
   QVTr5dQAAAAJ:u5HHmVD_uO8C:
     title: A Concept Knowledge Graph for User Next Intent Prediction at Alipay
     year: '2023'
@@ -43,11 +43,11 @@ papers:
     title: 'EasyInstruct: An Easy-to-use Instruction Processing Framework for Large
       Language Models'
     year: '2024'
-    citations: 3
+    citations: 4
   QVTr5dQAAAAJ:LkGwnXOMwfcC:
     title: 'Automind: Adaptive knowledgeable agent for automated data science'
     year: '2025'
-    citations: 9
+    citations: 8
   QVTr5dQAAAAJ:roLk4NBRz8UC:
     title: Retrieval-Augmented Prompt Learning for Pre-Trained Foundation Models
     year: '2025'
@@ -55,4 +55,4 @@ papers:
   QVTr5dQAAAAJ:Se3iqnhoufwC:
     title: Symbolic learning enables self-evolving agents
     year: '2025'
-    citations: 82
+    citations: 83
