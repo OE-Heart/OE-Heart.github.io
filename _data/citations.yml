@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-02-09 02:51:51'
+  last_updated: '2026-02-11 03:14:32'
 author:
   name: "Yixin Ou (\u6B27\u7FCC\u6615)"
-  citedby: 1193
+  citedby: 1196
 papers:
   QVTr5dQAAAAJ:u-x6o8ySG0sC:
     title: 'Reasoning with Language Model Prompting: A Survey'
@@ -12,7 +12,7 @@ papers:
     title: 'Llms for knowledge graph construction and reasoning: Recent capabilities
       and future opportunities'
     year: '2024'
-    citations: 401
+    citations: 404
   QVTr5dQAAAAJ:Tyk-4Ss8FVUC:
     title: 'KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents'
     year: '2024'
