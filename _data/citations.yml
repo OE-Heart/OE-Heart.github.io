@@ -1,26 +1,26 @@
 metadata:
-  last_updated: '2026-02-23 02:50:29'
+  last_updated: '2026-02-25 02:48:45'
 author:
   name: "Yixin Ou (\u6B27\u7FCC\u6615)"
-  citedby: 1228
+  citedby: 1234
 papers:
   QVTr5dQAAAAJ:u-x6o8ySG0sC:
     title: 'Reasoning with Language Model Prompting: A Survey'
     year: '2022'
-    citations: 452
+    citations: 453
   QVTr5dQAAAAJ:qjMakFHDy7sC:
     title: 'Llms for knowledge graph construction and reasoning: Recent capabilities
       and future opportunities'
     year: '2024'
-    citations: 407
+    citations: 409
   QVTr5dQAAAAJ:Tyk-4Ss8FVUC:
     title: 'KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents'
     year: '2024'
-    citations: 96
+    citations: 97
   QVTr5dQAAAAJ:2osOgNQ5qMEC:
     title: 'OceanGPT: A Large Language Model for Ocean Science Tasks'
     year: '2023'
-    citations: 106
+    citations: 107
   QVTr5dQAAAAJ:Y0pCki6q_DkC:
     title: Symbolic Learning Enables Self-Evolving Agents
     year: '2024'
@@ -38,7 +38,7 @@ papers:
     title: How Do LLMs Acquire New Knowledge? A Knowledge Circuits Perspective on
       Continual Pre-Training
     year: '2025'
-    citations: 16
+    citations: 17
   QVTr5dQAAAAJ:zYLM7Y9cAGgC:
     title: 'EasyInstruct: An Easy-to-use Instruction Processing Framework for Large
       Language Models'
