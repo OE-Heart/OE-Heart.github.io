@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-04-27 03:48:04'
+  last_updated: '2026-04-29 03:50:03'
 author:
   name: "Yixin Ou (\u6B27\u7FCC\u6615)"
-  citedby: 1389
+  citedby: 1390
 papers:
   QVTr5dQAAAAJ:u-x6o8ySG0sC:
     title: 'Reasoning with Language Model Prompting: A Survey'
@@ -43,7 +43,7 @@ papers:
     title: 'EasyInstruct: An Easy-to-use Instruction Processing Framework for Large
       Language Models'
     year: '2024'
-    citations: 4
+    citations: 5
   QVTr5dQAAAAJ:LkGwnXOMwfcC:
     title: 'Automind: Adaptive knowledgeable agent for automated data science'
     year: '2025'
