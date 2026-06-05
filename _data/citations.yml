@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-06-03 04:58:06'
+  last_updated: '2026-06-05 04:25:56'
 author:
   name: "Yixin Ou (\u6B27\u7FCC\u6615)"
-  citedby: 1451
+  citedby: 1458
 papers:
   QVTr5dQAAAAJ:u-x6o8ySG0sC:
     title: 'Reasoning with Language Model Prompting: A Survey'
@@ -12,11 +12,11 @@ papers:
     title: 'Llms for knowledge graph construction and reasoning: Recent capabilities
       and future opportunities'
     year: '2024'
-    citations: 506
+    citations: 509
   QVTr5dQAAAAJ:Tyk-4Ss8FVUC:
     title: 'KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents'
     year: '2024'
-    citations: 120
+    citations: 122
   QVTr5dQAAAAJ:2osOgNQ5qMEC:
     title: 'OceanGPT: A Large Language Model for Ocean Science Tasks'
     year: '2023'
@@ -55,4 +55,4 @@ papers:
   QVTr5dQAAAAJ:Se3iqnhoufwC:
     title: Symbolic learning enables self-evolving agents
     year: '2025'
-    citations: 108
+    citations: 110
