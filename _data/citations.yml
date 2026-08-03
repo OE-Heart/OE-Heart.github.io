@@ -1,26 +1,26 @@
 metadata:
-  last_updated: '2026-08-01 03:36:31'
+  last_updated: '2026-08-03 03:38:32'
 author:
   name: "Yixin Ou (\u6B27\u7FCC\u6615)"
-  citedby: 1571
+  citedby: 1586
 papers:
   QVTr5dQAAAAJ:u-x6o8ySG0sC:
     title: 'Reasoning with Language Model Prompting: A Survey'
     year: '2022'
-    citations: 524
+    citations: 530
   QVTr5dQAAAAJ:qjMakFHDy7sC:
     title: 'Llms for knowledge graph construction and reasoning: Recent capabilities
       and future opportunities'
     year: '2024'
-    citations: 554
+    citations: 557
   QVTr5dQAAAAJ:Tyk-4Ss8FVUC:
     title: 'KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents'
     year: '2024'
-    citations: 142
+    citations: 149
   QVTr5dQAAAAJ:2osOgNQ5qMEC:
     title: 'OceanGPT: A Large Language Model for Ocean Science Tasks'
     year: '2023'
-    citations: 139
+    citations: 140
   QVTr5dQAAAAJ:Y0pCki6q_DkC:
     title: Symbolic Learning Enables Self-Evolving Agents
     year: '2024'
@@ -29,7 +29,7 @@ papers:
     title: Layout and Task Aware Instruction Prompt for Zero-shot Document Image Question
       Answering
     year: '2023'
-    citations: 38
+    citations: 37
   QVTr5dQAAAAJ:u5HHmVD_uO8C:
     title: A Concept Knowledge Graph for User Next Intent Prediction at Alipay
     year: '2023'
@@ -38,7 +38,7 @@ papers:
     title: How Do LLMs Acquire New Knowledge? A Knowledge Circuits Perspective on
       Continual Pre-Training
     year: '2025'
-    citations: 23
+    citations: 24
   QVTr5dQAAAAJ:zYLM7Y9cAGgC:
     title: 'EasyInstruct: An Easy-to-use Instruction Processing Framework for Large
       Language Models'
@@ -47,7 +47,7 @@ papers:
   QVTr5dQAAAAJ:LkGwnXOMwfcC:
     title: 'Automind: Adaptive knowledgeable agent for automated data science'
     year: '2025'
-    citations: 22
+    citations: 21
   QVTr5dQAAAAJ:roLk4NBRz8UC:
     title: Retrieval-Augmented Prompt Learning for Pre-Trained Foundation Models
     year: '2025'
@@ -55,4 +55,4 @@ papers:
   QVTr5dQAAAAJ:Se3iqnhoufwC:
     title: Symbolic learning enables self-evolving agents
     year: '2025'
-    citations: 116
+    citations: 115
