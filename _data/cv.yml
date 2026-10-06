@@ -37,6 +37,12 @@
 - title: Internships
   type: time_table
   contents:
+    - title: Beidou Program Research Intern
+      institution: <a href="https://www.meituan.com/">Meituan</a>
+      year: 2025.06 ~ 2025.11
+      description:
+        - LongCat Interaction Team
+
     - title: NLP Algorithm Engineering Intern
       institution: <a href="https://www.yiwise.com/">YiWise</a>
       year: 2022.05 ~ 2022.07

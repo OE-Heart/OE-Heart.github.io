@@ -44,6 +44,14 @@
       "summary": "Research data-centric, self-evolving LLM agents, develop and open-source an agent reasoning and optimization framework, and surpass 5.6k GitHub stars."
     },
     {
+      "name": "Meituan",
+      "position": "Beidou Program Research Intern",
+      "url": "https://www.meituan.com/",
+      "startDate": "2025-06-16",
+      "endDate": "2025-11-30",
+      "summary": "LongCat Interaction Team."
+    },
+    {
       "name": "Alibaba",
       "position": "Algorithm Engineer",
       "url": "https://www.alibabagroup.com/en-US/",
@@ -72,9 +80,9 @@
   ],
   "references": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Tracey (Jinwen) Li",
+      "icon": "fa-solid fa-user",
+      "reference": "<a href=\"https://traceyli-med.github.io/\">https://traceyli-med.github.io/</a>"
     }
   ]
 }
