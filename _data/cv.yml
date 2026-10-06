@@ -4,9 +4,9 @@
     - name: Name
       value: Yixin Ou (欧翌昕)
     - name: Birth
-      value: 22th February 2002
+      value: 22nd February 2002
     - name: Position
-      value: CS Master Student @ ZJU
+      value: Algorithm Engineer, Qwen Large Model Application Team @ Alibaba
     - name: Email
       value: ouyixin@zju.edu.cn
     - name: Website
@@ -24,6 +24,15 @@
     - title: Undergraduate
       institution: Zhejiang University, Hangzhou, China
       year: 2019.09 ~ 2023.06
+
+- title: Professional Experience
+  type: time_table
+  contents:
+    - title: Algorithm Engineer
+      institution: <a href="https://www.alibabagroup.com/en-US/">Alibaba</a>
+      year: 2026.05 ~ Present
+      description:
+        - Qwen Large Model Application Team
 
 - title: Internships
   type: time_table
@@ -43,14 +52,6 @@
         - Advised by <a href="https://michaelzhouwang.github.io/">Wangchunshu Zhou</a>
         - Research data-centric, self-evolving LLM agents
         - Develop and open-source an agent reasoning and optimization framework, and surpass 5.6k GitHub stars
-
-    - title: LLM Algorithm Research Intern
-      institution: <a href="https://www.noahlab.com.hk/">Huawei Noah's Ark Lab</a>
-      year: 2024.07 ~ 2024.10
-      description:
-        - Advised by <a href="https://huijin12.github.io/">Hui Jin</a> and <a href="https://openreview.net/profile?id=~Jiacheng_Sun1/">Jiacheng Sun</a>
-        - Study Mechanistic Interpretability techniques for LLMs
-        - Investigate new knowledge acquisition mechanisms of LLMs, and perform interpretability analysis of Continual Pre-training from a Knowledge Circuit perspective
 
 - title: Other Interests
   type: list
