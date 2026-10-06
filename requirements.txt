@@ -1,5 +1,7 @@
 nbconvert
 scholarly
+# scholarly imports bibtexparser.bibdatabase, which is not available in v2.
+bibtexparser==1.4.4
 requests
 beautifulsoup4
 pyyaml
