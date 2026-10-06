@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-07-02
+date: 2025-03-06
 inline: true
 related_posts: false
 ---
 
-Start my internship at Huawei Noah’s Ark Lab under the supervision of [Hui Jin](https://huijin12.github.io/) and [Jiacheng Sun](https://openreview.net/profile?id=~Jiacheng_Sun1).
+Our paper [Dynamics of Knowledge Circuits](https://arxiv.org/abs/2502.11196) is accepted by [SCI-FM @ ICLR 2025](https://open-foundation-model.github.io)! 🎉

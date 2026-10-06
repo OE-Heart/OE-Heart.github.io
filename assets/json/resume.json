@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Yixin Ou (欧翌昕)",
-    "label": "CS Master Student",
+    "label": "Algorithm Engineer, Qwen Large Model Application Team, Alibaba",
     "email": "ouyixin@zju.edu.cn",
     "url": "https://oe-heart.github.io",
     "summary": "An AI researcher interested in Large Language Models and their theory and applications."
@@ -18,7 +18,7 @@
     {
       "institution": "Zhejiang University, Hangzhou, China",
       "url": "https://www.zju.edu.cn/english/",
-      "area": "Sftware Engineering",
+      "area": "Software Engineering",
       "studyType": "Bachelor",
       "startDate": "2019-09-01",
       "endDate": "2023-06-01",
@@ -42,14 +42,6 @@
       "startDate": "2024-03",
       "endDate": "2024-05",
       "summary": "Research data-centric, self-evolving LLM agents, develop and open-source an agent reasoning and optimization framework, and surpass 5.6k GitHub stars."
-    },
-    {
-      "name": "Huawei Noah's Ark Lab",
-      "position": "LLM Algorithm Research Intern",
-      "url": "https://www.noahlab.com.hk/",
-      "startDate": "2024-07",
-      "endDate": "2024-10",
-      "summary": "Study Mechanistic Interpretability techniques for LLMs, investigate new knowledge acquisition mechanisms, and perform interpretability analysis of Continual Pre-training from a Knowledge Circuit perspective."
     }
   ],
   "languages": [

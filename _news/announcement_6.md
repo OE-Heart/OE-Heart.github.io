@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-06-16
+date: 2026-03-30
 inline: true
 related_posts: false
 ---
 
-Start my internship at [Meituan](https://www.meituan.com/).
+I received my master's degree from Zhejiang University.
