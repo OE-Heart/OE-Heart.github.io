@@ -3,6 +3,10 @@ name: Deploy site
 on:
   schedule:
     - cron: "0 0 */2 * *"
+  workflow_run:
+    workflows: ["Update Google Scholar Citations"]
+    types: [completed]
+    branches: [main]
   push:
     branches:
       - master
@@ -68,6 +72,7 @@ permissions:
 
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
