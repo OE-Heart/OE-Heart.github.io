@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-10-07 05:33:37'
+  last_updated: '2026-10-09 05:46:15'
 author:
   name: "Yixin Ou (\u6B27\u7FCC\u6615)"
   citedby: 1722
@@ -16,7 +16,7 @@ papers:
   QVTr5dQAAAAJ:Tyk-4Ss8FVUC:
     title: 'KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents'
     year: '2024'
-    citations: 160
+    citations: 159
   QVTr5dQAAAAJ:2osOgNQ5qMEC:
     title: 'OceanGPT: A Large Language Model for Ocean Science Tasks'
     year: '2023'
@@ -55,7 +55,7 @@ papers:
   QVTr5dQAAAAJ:Se3iqnhoufwC:
     title: Symbolic learning enables self-evolving agents
     year: '2025'
-    citations: 133
+    citations: 134
   QVTr5dQAAAAJ:8k81kl-MbHgC:
     title: 'OceanGPT: a large language model for ocean science tasks (2023)'
     year: Unknown Year
