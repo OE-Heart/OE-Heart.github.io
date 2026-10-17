@@ -1,18 +1,18 @@
 metadata:
-  last_updated: '2026-10-15 04:15:15'
+  last_updated: '2026-10-17 04:00:52'
 author:
   name: "Yixin Ou (\u6B27\u7FCC\u6615)"
-  citedby: 1734
+  citedby: 1736
 papers:
   QVTr5dQAAAAJ:u-x6o8ySG0sC:
     title: 'Reasoning with Language Model Prompting: A Survey'
     year: '2022'
-    citations: 554
+    citations: 555
   QVTr5dQAAAAJ:qjMakFHDy7sC:
     title: 'Llms for knowledge graph construction and reasoning: Recent capabilities
       and future opportunities'
     year: '2024'
-    citations: 616
+    citations: 615
   QVTr5dQAAAAJ:Tyk-4Ss8FVUC:
     title: 'KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents'
     year: '2024'
@@ -29,7 +29,7 @@ papers:
     title: Layout and Task Aware Instruction Prompt for Zero-shot Document Image Question
       Answering
     year: '2023'
-    citations: 38
+    citations: 39
   QVTr5dQAAAAJ:u5HHmVD_uO8C:
     title: A Concept Knowledge Graph for User Next Intent Prediction at Alipay
     year: '2023'
@@ -47,7 +47,7 @@ papers:
   QVTr5dQAAAAJ:LkGwnXOMwfcC:
     title: 'Automind: Adaptive knowledgeable agent for automated data science'
     year: '2025'
-    citations: 32
+    citations: 33
   QVTr5dQAAAAJ:roLk4NBRz8UC:
     title: Retrieval-Augmented Prompt Learning for Pre-Trained Foundation Models
     year: '2025'
